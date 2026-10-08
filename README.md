@@ -16,7 +16,7 @@ This repository is the **official student worksheet and starter-code home** for 
 4. Open one lab folder, e.g. `cd student/01_data_types`, and run `go run main.go`.
 5. Complete the `TODO` sections, predict the output, test it, and format with `gofmt -w main.go`.
 6. Copy **[EXPLANATION_TEMPLATE.md](EXPLANATION_TEMPLATE.md)** to `EXPLANATION.md` in your fork and document your reasoning.
-7. Commit and push your solutions to your fork. Then open a **[Submission Issue](../../issues/new/choose)** in *this* repository with your fork link. The issue form is provided for you.
+7. Commit and push your solutions to your fork. Then open a **[Submission Issue](https://github.com/shiddiqeuy/students-worksheet-algorithm/issues/new/choose)** in *this* repository with your fork link. The issue form is provided for you.
 
 **Important:** Each folder contains its own `main.go`. Run one folder at a time. No Go module or external dependencies are required for the starter exercises.
 
@@ -24,7 +24,7 @@ This repository is the **official student worksheet and starter-code home** for 
 
 | Lab | Topic | Level | Acceptance evidence |
 |---|---|---|---|
-| [01](student/01_data_types/main.go) | Data types and identifiers | Required | `19 | 62.5 | true | 00123` |
+| [01](student/01_data_types/main.go) | Data types and identifiers | Required | `19, 62.5, true, 00123` |
 | [02](student/02_cafe_sequence/main.go) | Instruction sequencing: campus café | Required | `Subtotal: 36000`, `Total: 31000` |
 | [03](student/03_factor_checker/main.go) | Factors, modulo, input validation | Required | `5 20` → `true`; `0 20` → `invalid input` |
 | [04](student/04_population/main.go) | Population accounting | Required | `Population: 1011` |
@@ -38,7 +38,7 @@ This repository is the **official student worksheet and starter-code home** for 
 
 ## How to submit
 
-- Submit the **link to your fork** by opening a [GitHub Issue](../../issues/new/choose) here (select *Go Lab Submission*). Keep this original repository clean; student work belongs in forks.
+- Submit the **link to your fork** by opening a [GitHub Issue](https://github.com/shiddiqeuy/students-worksheet-algorithm/issues/new/choose) here (select *Go Lab Submission*). Keep this original repository clean; student work belongs in forks.
 - In your fork, include completed Go files, `EXPLANATION.md`, and terminal evidence for **at least three labs**, plus a normal test and an edge/invalid case.
 - Be ready for a **two-minute individual mini-defense in English**: What are the inputs? Why those data types? Why that operation order? What case would break?
 - This repository is public. **Do not post student ID numbers, private contact details, grades, or other sensitive information** in issues or commits. Use the university LMS if formal identity verification is needed.
