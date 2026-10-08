@@ -1,0 +1,44 @@
+name: Go Lab Submission
+description: Submit a link to your completed Go worksheet in your own fork (International Class 2026).
+title: "[Submission] Go worksheet — "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Public repository:** Please do not include student ID numbers, grades or private contact details. Submit your **own fork link**, not files in this teaching repository. Official identity checks, if needed, belong in the LMS.
+  - type: input
+    id: fork
+    attributes:
+      label: GitHub fork URL
+      description: Link to your own fork with completed TODOs, EXPLANATION.md, and evidence.
+      placeholder: https://github.com/your-handle/students-worksheet-algorithm
+    validations:
+      required: true
+  - type: textarea
+    id: labs
+    attributes:
+      label: Labs completed
+      description: Name the lab numbers. State which ones are optional.
+      placeholder: "01, 02, 03, 04, 05, 06, 08 (required); 07 (optional)"
+    validations:
+      required: true
+  - type: textarea
+    id: defense
+    attributes:
+      label: Two-sentence reflection
+      description: Explain one data-type decision and one normal/edge test you ran.
+      placeholder: "I chose string for student ID because ... My invalid test was ..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I worked in my own fork; I did not edit the instructor's main branch.
+          required: true
+        - label: My fork includes EXPLANATION.md and at least three terminal evidences.
+          required: true
+        - label: My issue and repository contain no private student information.
+          required: true
